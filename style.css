@@ -404,16 +404,16 @@ h6 {
       bottom: 0;
 }
 
+/* .myassignment h5:hover{
+      transform: scale(1.2);
+      color: rgb(247, 59, 2);
+} */
+
 .assignmtintroduction{
       line-height: 36px;
       text-decoration: none; 
       color: black;
 }
-
-.link a:hover {
-      transform: scale(1.2);
-      color: rgb(247, 59, 2);
-      }
 
 @media(max-width: 768px) {
       .project {
@@ -526,9 +526,12 @@ h6 {
       color: rgb(247, 59, 2);
 }
 
-.hero-content h5 a:hover {
-      transform: scale(1.2);
+.hero-content h5:hover {
+
       color: rgb(247, 59, 2);
+      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgba(247, 59, 2, 0.8); 
 }
 
 .hero-content h6 {

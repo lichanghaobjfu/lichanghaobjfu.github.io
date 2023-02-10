@@ -382,15 +382,38 @@ h6 {
       cursor: pointer;
 }
 
-.myassignment {
+.work {
+      height: 500px;
+}
+
+.work1 {
+      background: url("./images/F13.png") no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.work1::after {
+      content: "Statistical and Data Mining Methods";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: black;
+      display: block;
+      top: 8%;
+      left: -105%;
+      right: 0;
+      bottom: 0;
+}
+
+.assignmtintroduction{
       line-height: 36px;
+      text-decoration: none; 
       color: black;
 }
 
-.myassignment h5 a:hover {
+.link a:hover {
       transform: scale(1.2);
       color: rgb(247, 59, 2);
-} 
+      }
 
 @media(max-width: 768px) {
       .project {
@@ -500,6 +523,11 @@ h6 {
 .hero-content p {
       font-weight: 300;
       line-height: 36px;
+      color: rgb(247, 59, 2);
+}
+
+.hero-content h5 a:hover {
+      transform: scale(1.2);
       color: rgb(247, 59, 2);
 }
 

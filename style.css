@@ -36,8 +36,8 @@ html, body {
 }
 
 .anim-typewriter {
-      animation: typewriter 4s steps(40) 1s 1 normal both,
-      blinkTextCussor 500ms steps(40) infinite normal;
+      animation: typewriter 3s steps(40) 1s 1 normal both,
+      blinkTextCussor 400ms steps(40) infinite normal;
 }
 
 @keyframes typewriter {
@@ -45,7 +45,7 @@ html, body {
             width: 0;
       }
       to {
-            width: 18em;
+            width: 9em;
       }
 }
 
@@ -55,7 +55,7 @@ html, body {
                   width: 0;
             }
             to {
-                  width: 17em;
+                  width: 12em;
             }
       }
 }

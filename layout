@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+      }
+
+      .grid-item {
+        background-color: lightgray;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .grid-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="https://via.placeholder.com/300x200" alt="Placeholder Image">
+        <h3>Title 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="grid-item">
+        <img src="https://via.placeholder.com/300x200" alt="Placeholder Image">
+        <h3>Title 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="grid-item">
+        <img src="https://via.placeholder.com/300x200" alt="Placeholder Image">
+        <h3>Title 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <!-- Add more grid items here -->
+    </div>
+  </body>
+</html>

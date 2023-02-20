@@ -1,0 +1,213 @@
+/* 
+.resume-btn {
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: #f76009;
+    color: #inherit;
+    padding: 6px 6px;
+    border-width: 2px;
+    font-family: "Roboto Mono";
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border-image: initial;
+  }
+  
+.resume-btn:hover {
+    background-color: rgb(238, 159, 135);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+.fa-file-pdf {
+  font-size:12px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' -25,
+  'opsz' 48
+}
+
+.fa-file-pdf:before {
+    content: "\fici";
+}
+
+.fas{
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-icons{
+  font-size:18px
+}
+
+.fa-solid{
+  font-size: 18px;
+}
+
+.fa-solid:hover{
+  font-size: 18px;
+  fill: red;
+} */
+
+.viewer::before{
+  font: var(--fa-font-light);
+  content:"\f1c1";
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+    /* Step 1: Common Properties: All required to make icons render reliably - we did this above but it's included here for the full demo */
+    /* .icon::before {
+      display: inline-block;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    } */
+  
+    /* Step 2: Reference Individual Icons */
+    /* Note: Make sure to include the correct weight and Unicode value for the icon */
+  
+    /* an example rule targeting any element with the "account" class to render fa-user icon in the Solid style */
+    .account{
+      dispaly:flex;
+      align-items:center;
+    }
+    
+    .account::before {
+      font: var(--fa-font-solid);
+      content: "\f007";
+      display: inline-block
+      font-family:"Font Awesome 5 Free";
+      font-weight: 900;
+      font-style:normal;
+      font-variant:normal;
+      font-size:0.75em;
+      margin-right:0.5em;
+      text-rendering: auto;
+      -webkit-font-smoothing:antialiased;
+    }
+/*   
+    /* an example rule targeting any element with the "warning" class to render fa-triangle-exclamation icon in the Regular style */
+    .warning::before {
+      font: var(--fa-font-regular);
+      content: "\f071";
+    }
+  
+    /* an example rule targeting any element with the "updates" class to render fa-newspaper icon in the Light style */
+    .updates::before {
+      font: var(--fa-font-light);
+      content: "\f1ea";
+    }
+  
+    /* an example rule targeting any element with the "contact" class to render fa-message icon in the Thin style */
+    .updates::before {
+      font: var(--fa-font-thin);
+      content: "\f27a";
+    }
+  
+     /* an example rule targeting any element with the "delete" class to render fa-trash icon in the Sharp Solid style */
+    .delete::before {
+      font: var(--fa-font-sharp-solid);
+      content: "\f1f8";
+    }
+  
+    /* an example rule targeting any element with the "add" class to render fa-circle-plus icon in the Sharp Regular style */
+    .add::before {
+      font: var(--fa-font-sharp-regular);
+      content: "\f055";
+    }
+  
+    /* an example rule targeting any element with the "gaming" class to render fa-discord Brand icon */
+    .gaming::before {
+      font: var(--fa-font-brands);
+      content: "\f392";
+    }
+  
+     /* an example rule targeting any element with the "custom-icon" class to render a custom icon (uploaded to a kit) */
+    .custom-icon::before {
+      font: "Font Awesome Kit";
+      content: "\[CUSTOM_ICON_UNICODE]"; /*  replace with custom icon's unicode value */
+    }
+  
+  /* Step 1: Common Duotone positioning properties: All required to make icons render reliably */
+  .icon-duotone {
+    position: relative;
+    padding-left: 1.25em; /* make space for the width of the absolutely positioned icon */
+  }
+
+  /* Step 2: Set the font styles for Duotone */
+  .icon-duotone::before,
+  .icon-duotone::after {
+    font: var(--fa-font-duotone);
+
+    /* include the basic Font Awesome font style settings if you haven't already */
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
+    /* position both layers of the icon to the left, set our fixed-width width, horizontally center layers, and then vertically align them so they flex with different line heights */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.25em;
+    text-align: center;
+  }
+
+  /* Step 3: Set the default opacity levels and colors for each layer */
+  .icon-duotone::before {
+    color: var(--fa-primary-color, inherit);
+    opacity: 1;
+    opacity: var(--fa-primary-opacity, 1.0);
+  }
+
+  .icon-duotone::after {
+    color: var(--fa-secondary-color, inherit);
+    opacity: var(--fa-secondary-opacity, 0.4);
+  } */
+
+  .resume-btn {
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: #f76009;
+    color: #inherit;
+    padding: 6px 6px;
+    border-width: 2px;
+    font-family: "Roboto Mono";
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border-image: initial;
+  }
+  
+.resume-btn:hover {
+    background-color: rgb(238, 159, 135);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}

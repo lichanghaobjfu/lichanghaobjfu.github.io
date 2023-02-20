@@ -653,6 +653,10 @@ textarea:focus {
       font-size: 16px;
       line-height: 1.6;
       margin-left: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
 }
 
 .about-content p {
@@ -668,11 +672,13 @@ textarea:focus {
       color: rgb(247, 59, 2);
     }
 .about-content h1 {
+      text-align: center;
       font-size: 2.5em;
 }
     
 .about-content h2 {
-      font-size: 2em;
+      margin: 1rem 0 0.5rem;
+      font-size: 1.5em;
 }
     
 .about-content h3 {
@@ -692,13 +698,17 @@ textarea:focus {
 }
 
 .about-content ul {
-      list-style-type: none;
-      margin: 0;
+      list-style-type: disc;
+      margin-left: 40px;
       padding: 0;
+      font-weight: 300;
+      line-height: 24px;
+      color: rgb(116, 116, 116);
     }
     
 .about-content li {
       margin-bottom: 0.5em;
+      padding-left: 20px;
 }
 
 .about-content-date {
@@ -737,3 +747,92 @@ textarea:focus {
       box-sizing: border-box;
       display: block;
 }
+
+.about-content button{
+      text-align: center;
+      justify-content: center;
+      display: inline-block;
+      margin: 2px 2px;
+      cursor: pointer;
+      background-color: white;
+      border: 2px solid;
+      border-color: #f76009;
+      color: #f76009;
+      font-family: "Roboto Mono";
+      font-weight: lighter;
+      padding: 1px 6px;
+      border-width: 2px;
+      border-radius: 8px;
+      border-image: initial;
+      letter-spacing:0.1em;
+      font-size: 0.8rem;
+      
+}
+
+.icon{
+
+      font: var(--fa-font-solid);
+      display: inline-block
+      font-family:"Font Awesome 5 Free";
+      font-style:normal;
+      font-variant:normal;
+      text-rendering: auto;
+      -webkit-font-smoothing:antialiased;
+      font-size: 1.5em;
+}
+
+.button-link {
+      display: flex;
+      font-weight: 400;
+      border: none;
+      background-color: white;
+      border-radius: 4px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      align-items: center;     
+     
+    }
+    
+.about-content i{
+      font-style:normal;
+      font-weight: 500;
+      font-size: 0.8rem;
+      font-family: "Roboto Mono"
+      
+      
+}
+    .button-link:hover,
+    .button-link:hover .icon::before {
+      background-color: #f76009;
+      color: white;
+      
+
+    }
+    
+    .icon::before {
+      font-weight: 400;
+      font-size: 1rem;
+      color: #f76009;
+      margin-right: 0px;
+    }
+    
+    .icon:hover::before {
+      font-size: 1rem;
+      color: white;
+
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+

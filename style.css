@@ -302,8 +302,7 @@ h6 {
 }
 
 .project1 {
-      /* background: url(https://images.unsplash.com/photo-1493497029755-f49c8e9a8bbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80) no-repeat 50% 50%; */
-      background: url("./images/F13.png") no-repeat 50% 50%;
+      background: url("images/F13.png") no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
@@ -323,8 +322,7 @@ h6 {
 }
 
 .project2 {
-      /* background: url(https://images.unsplash.com/photo-1559755616-b5dd48f7a4be?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHxibGFjayUyMGFuZCUyMHdoaXRlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat 50% 50%; */
-      background: url("./images/17.png") no-repeat 50% 50%;
+      background: url("images/17.png") no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
@@ -344,13 +342,13 @@ h6 {
 }
 
 .project3 {
-      background: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80) no-repeat 50% 50%;
+      background: url("images/STX Book for portfolio.jpg") no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
 
 .project3::after {
-      content: "ExpenseTracker.";
+      content: "St.Croix Resilience Plan";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -387,12 +385,12 @@ h6 {
       height: 500px;
 }
 
-.work1 {
+.musa500 {
       background: url("./images/F13.png") no-repeat 50% 50%;
       background-size: cover;
 }
 
-.work1::after {
+.musa500::after {
       content: "Statistical and Data Mining Methods.";
       font-family: "Roboto Mono";
       font-size: 36px;
@@ -405,11 +403,11 @@ h6 {
       bottom: 0;
 }
 
-.work2 {
+.cpln675 {
       background: url("./images/17.png") no-repeat 50% 50%;
       background-size: cover;
 }
-.work2::after {
+.cpln675::after {
       content: "Land Use and Environmental Modeling.";
       font-family: "Roboto Mono";
       font-size: 36px;
@@ -422,10 +420,23 @@ h6 {
       bottom: 0;
 }
 
-/* .myassignment h5:hover{
-      transform: scale(1.2);
-      color: rgb(247, 59, 2);
-} */
+.Stcroix {
+      background: url("./images/STX Book for portfolio.jpg") no-repeat 50% 50%;
+      background-size: cover;
+}
+.Stcroix::after {
+      content: "Embracing the Guts.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: black;
+      display: block;
+      top: 8%;
+      left: -105%;
+      right: 0;
+      bottom: 0;
+}
+
 
 .assignmtintroduction{
       line-height: 36px;
@@ -433,8 +444,24 @@ h6 {
       color: black;
 }
 
+.slidetitle{
+      font-weight: 600;
+      font-size: medium;
+      font-family: "Roboto Mono";
+      color:rgba(0, 0, 0, 0.8)
+      display: block; 
+      text-align: center;
+}
+
+.slideshowlink:hover{
+      color: rgb(247, 59, 2);
+      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgba(247, 59, 2, 0.8); 
+}
+
 @media(max-width: 768px) {
-      .project {
+      .work {
             width: 90% !important;
             margin: 14px auto;
       }
@@ -443,7 +470,7 @@ h6 {
             display: none;
       }
 
-      .project1::after, .project2::after, .project3::after, .project4::after {
+      .musa500::after, .cpln675::after, .Stcroix::after, .work4::after {
             display: none;
       }
 
@@ -648,7 +675,7 @@ textarea:focus {
       }
 }
 
-/*--------------- aboutform需要继续改 --------------- */
+/*--------------- aboutform --------------- */
 .about-content {
       font-size: 16px;
       line-height: 1.6;
@@ -692,6 +719,8 @@ textarea:focus {
       -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: rgba(247, 59, 2, 0.8); 
 } */
+
+
 
 .about-content h6 {
       text-align: left;
@@ -770,7 +799,7 @@ textarea:focus {
 }
 
 .icon{
-
+      
       font: var(--fa-font-solid);
       display: inline-block
       font-family:"Font Awesome 5 Free";
@@ -781,7 +810,12 @@ textarea:focus {
       font-size: 1.5em;
 }
 
+.link{
+      
+}
+
 .button-link {
+      
       display: flex;
       font-weight: 400;
       border: none;
@@ -795,6 +829,7 @@ textarea:focus {
     }
     
 .about-content i{
+      
       font-style:normal;
       font-weight: 500;
       font-size: 0.8rem;

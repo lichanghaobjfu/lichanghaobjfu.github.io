@@ -1,0 +1,108 @@
+/* Set the position of the picture frame */
+#picture-frame {
+    
+    
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 176, 6, 0.75);
+    width: 100%; /* Set the fixed width of the picture frame */
+    /* height: 0;
+    padding-bottom: 56.25%;  */
+    height: fit-content;
+    margin: 0.5rem 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+  }
+  
+
+  /* Position the previous and next buttons */
+  #buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 80%; /* Set the fixed width of the picture frame */
+    height: max-content;
+    max-width: 100%; /* Set the maximum width of the buttons to the screen width */
+    margin: 0 auto;
+    bottom: -10px;
+    height: 10px;
+  }
+  
+  /* Position the progress bar */
+  #progress-bar {
+    position: relative;
+    bottom: 0;
+    border-radius: 4px;
+    left: 0;
+    width: 50%;
+    transform: translateX(50%);
+    height: 8px;
+    background-color: #b4b4b4;
+  }
+
+
+  
+  /* Style the progress bar */
+  #progress-bar-inner {
+    width: 0%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgb(100, 100, 100);
+  }
+  
+  /* Style the buttons */
+  .button {
+    background-color: transparent;
+    border: none;
+    color: rgb(100, 100, 100);
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 4px 2px;
+    cursor: pointer;
+    transform: translateY(50%);
+  }
+
+  .button:hover {
+    color: orange;
+    opacity: 0.75;
+  }
+
+  .button:focus {
+    outline: none;
+  }
+
+  /* Position the previous button */
+  #prev-button {
+    position: absolute;
+    left: 12%;
+    bottom: 0;
+    opacity: 1;
+  }
+
+  
+  
+  /* Position the next button */
+  #next-button {
+    position: absolute;
+    right: 12%;
+    bottom: 0;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    #picture-frame {
+      width: 100%;
+      /* padding-bottom: 56.25%; 4:3 aspect ratio for mobile screens */
+    }
+  }

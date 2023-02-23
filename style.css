@@ -348,7 +348,7 @@ h6 {
 }
 
 .project3::after {
-      content: "St.Croix Resilience Plan";
+      content: "St.Croix Resilience Plan.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -425,7 +425,7 @@ h6 {
       background-size: cover;
 }
 .Stcroix::after {
-      content: "Embracing the Guts.";
+      content: "St.Croix Resilience Plan_Embracing the Guts.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -810,9 +810,6 @@ textarea:focus {
       font-size: 1.5em;
 }
 
-.link{
-      
-}
 
 .button-link {
       
@@ -824,7 +821,7 @@ textarea:focus {
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      align-items: center;     
+      align-items: center;
      
     }
     

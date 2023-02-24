@@ -1,116 +1,116 @@
 // JavaScript code
-// const pictures = document.querySelectorAll('#picture-frame img');
+// const pictures2 = document.querySelectorAll('#picture-frame img');
 
 
-const pictures = []
-for (let i = 0; i < 16; i++) {
+const pictures2 = []
+for (let i = 0; i < 50; i++) {
   const img = document.createElement("img");
-  img.src = "../images/under/undergraduate" + (i + 1).toString() + ".jpg";
-  var src = document.getElementById("picture-frame");
+  img.src = "../images/guts_pre/Remagining the Guts_Presentation" + (i + 1).toString() + ".jpg";
+  var src = document.getElementById("picture-frame2");
   src.appendChild(img);
-  pictures.push(img)
+  pictures2.push(img)
 }
 
 
 console.log("total number of image")
-console.log(pictures.length)
+console.log(pictures2.length)
 
-const prevButton = document.querySelector('#prev-button');
-const nextButton = document.querySelector('#next-button');
-const progressBarInner = document.querySelector('#progress-bar-inner');
+const prevButton2 = document.querySelector('#prev-button2');
+const nextButton2 = document.querySelector('#next-button2');
+const progressBarInner2 = document.querySelector('#progress-bar-inner2');
 
-const numPictures = pictures.length;
-const numViews = Math.ceil((numPictures - 2) / 2);
+const numpictures2 = pictures2.length;
+// const numViews = Math.ceil((numpictures2 - 2) / 2);
 
-let currentPage = 1;
+let currentPage2 = 1;
 // let currentView = 1;
 
-function updateProgressBar() {
-  progressBarInner.style.width = ((currentPage - 1) / (numPictures - 1)) * 100 + '%';
+function updateProgressBar2() {
+  progressBarInner2.style.width = ((currentPage2 - 1) / (numpictures2 - 1)) * 100 + '%';
 }
 
-function updatePictures() {
-  for (let i = 0; i < numPictures; i++) {
-    pictures[i].style.display = 'none';
+function updatepictures2() {
+  for (let i = 0; i < numpictures2; i++) {
+    pictures2[i].style.display = 'none';
   }
 
-  if (currentPage === 1) {
-    pictures[0].style.display = 'block';
+  if (currentPage2 === 1) {
+    pictures2[0].style.display = 'block';
 
-  } else if (currentPage === numPictures) {
-    pictures[currentPage - 1].style.display = 'block';
+  } else if (currentPage2 === numpictures2) {
+    pictures2[currentPage2 - 1].style.display = 'block';
   } else{
-    pictures[currentPage - 1].style.display = 'block';
+    pictures2[currentPage2 - 1].style.display = 'block';
   }
 
   // console.log("current page:");
-  // console.log(currentPage);
+  // console.log(currentPage2);
 
 
-  // if (currentPage === 1) {
-  //   pictures[0].style.display = 'block';
-  //   pictures[0].style.marginLeft = "auto";
-  //   pictures[0].style.marginRight = "auto";
+  // if (currentPage2 === 1) {
+  //   pictures2[0].style.display = 'block';
+  //   pictures2[0].style.marginLeft = "auto";
+  //   pictures2[0].style.marginRight = "auto";
 
-  // } else if (currentPage === numPictures) {
-  //   pictures[numPictures - 1].style.display = 'block';
-  //   pictures[numPictures - 1].style.marginLeft = "auto";
-  //   pictures[numPictures - 1].style.marginRight = "auto";
+  // } else if (currentPage2 === numpictures2) {
+  //   pictures2[numpictures2 - 1].style.display = 'block';
+  //   pictures2[numpictures2 - 1].style.marginLeft = "auto";
+  //   pictures2[numpictures2 - 1].style.marginRight = "auto";
   // } else {
-  //   pictures[currentPage - 1].style.display = 'inline-block';
-  //   pictures[currentPage].style.display = 'inline-block';
-  //   pictures[currentPage - 1].style.marginLeft  = "auto";
-  //   pictures[currentPage - 1].style.marginRight  = "auto";
-  //   pictures[currentPage].style.marginLeft  = "auto";
-  //   pictures[currentPage].style.marginRight  = "auto";
-  //   pictures[currentPage - 1].style.width = "50%";
-  //   pictures[currentPage].style.width = "50%";
+  //   pictures2[currentPage2 - 1].style.display = 'inline-block';
+  //   pictures2[currentPage2].style.display = 'inline-block';
+  //   pictures2[currentPage2 - 1].style.marginLeft  = "auto";
+  //   pictures2[currentPage2 - 1].style.marginRight  = "auto";
+  //   pictures2[currentPage2].style.marginLeft  = "auto";
+  //   pictures2[currentPage2].style.marginRight  = "auto";
+  //   pictures2[currentPage2 - 1].style.width = "50%";
+  //   pictures2[currentPage2].style.width = "50%";
 
   // }
 }
 
-function updateButtons() {
-  prevButton.disabled = (currentPage === 1);
-  nextButton.disabled = (currentPage === numPictures);
+function updateButtons2() {
+  prevButton2.disabled = (currentPage2 === 1);
+  nextButton2.disabled = (currentPage2 === numpictures2);
 }
 
 // function updateView() {
-//   if (currentPage === 1 || currentPage === numPictures) {
+//   if (currentPage2 === 1 || currentPage2 === numpictures2) {
 //     currentView = 1;
 //   } else {
-//     currentView = Math.ceil((currentPage - 1) / 2);
+//     currentView = Math.ceil((currentPage2 - 1) / 2);
 //   }
 // }
 
-function updatePage() {
-  // if (currentView === 1) {
-  //   currentPage = 1;
-  // } else if (currentView === numViews + 1) {
-  //   currentPage = numPictures;
-  // } else {
-  //   currentPage = (currentView - 1) * 2 + 1;
-  // }
+// function updatePage() {
+//   if (currentView === 1) {
+//     currentPage2 = 1;
+//   } else if (currentView === numViews + 1) {
+//     currentPage2 = numpictures2;
+//   } else {
+//     currentPage2 = (currentView - 1) * 2 + 1;
+//   }
+// }
+
+function updateAll2() {
+  updateProgressBar2();
+  updatepictures2();
+  updateButtons2();
 }
 
-function updateAll() {
-  updateProgressBar();
-  updatePictures();
-  updateButtons();
-}
-
-prevButton.addEventListener('click', () => {
-  if (currentPage > 1) {
-      currentPage -= 1;
+prevButton2.addEventListener('click', () => {
+  if (currentPage2 > 1) {
+      currentPage2 -= 1;
     }
-    updateAll();
+    updateAll2();
 });
 
-nextButton.addEventListener('click', () => {
-  if (currentPage < numPictures) {
-      currentPage += 1;
+nextButton2.addEventListener('click', () => {
+  if (currentPage2 < numpictures2) {
+      currentPage2 += 1;
     } 
-    updateAll();
+    updateAll2();
 });
 
 
-updateAll();
+updateAll2();

@@ -361,13 +361,13 @@ h6 {
       cursor: pointer;
 }
 
-.project3 {
-      background: url("images/STX Book for portfolio.jpg") no-repeat 50% 50%;
+.project4 {
+      background: url("images/undergraduate.jpg") no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
 
-.project3::after {
+.project4::after {
       content: "St.Croix Resilience Plan.";
       font-family: "Roboto Mono";
       font-size: 36px;
@@ -381,25 +381,6 @@ h6 {
       cursor: pointer;
 }
 
-.project4 {
-      background: url("project/undergraduate.html") no-repeat 50% 50%;
-      background-size: cover;
-      cursor: pointer;
-}
-
-.project4::after {
-      content: "Other Design Drawing.";
-      font-family: "Roboto Mono";
-      font-size: 36px;
-      position: relative;
-      color: black;
-      display: block;
-      top: 8%;
-      left: -105%;
-      right: 0;
-      bottom: 0;
-      cursor: pointer;
-}
 
 @media(max-width: 768px) {
       .project {

@@ -11,6 +11,8 @@ for (let i = 0; i < 114; i++) {
   pictures.push(img)
 }
 
+console.log(pictures);
+
 
 console.log("total number of image")
 console.log(pictures.length)

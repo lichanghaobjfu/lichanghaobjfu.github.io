@@ -5,7 +5,7 @@
 const pictures = []
 for (let i = 0; i < 114; i++) {
   const img = document.createElement("img");
-  img.src = "../images/guts/STX Book for Portfolio" + (i + 1).toString() + ".jpg";
+  img.src = "../images/St.Croix Resilience Plan/book/STX Book for portfolio" + (i + 1).toString() + ".jpg";
   var src = document.getElementById("picture-frame");
   src.appendChild(img);
   pictures.push(img)

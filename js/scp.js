@@ -5,7 +5,7 @@
 const pictures2 = []
 for (let i = 0; i < 50; i++) {
   const img = document.createElement("img");
-  img.src = "../images/guts_pre/Remagining the Guts_Presentation" + (i + 1).toString() + ".jpg";
+  img.src = "../images/St.Croix Resilience Plan/Pre_slideshow/Remagining the Guts_Presentation" + (i + 1).toString() + ".jpg";
   var src = document.getElementById("picture-frame2");
   src.appendChild(img);
   pictures2.push(img)

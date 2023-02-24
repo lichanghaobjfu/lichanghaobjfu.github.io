@@ -302,7 +302,7 @@ h6 {
 }
 
 .project1 {
-      background: url("images/F13.png") no-repeat 50% 50%;
+      background: url("../images/musa500/overview.png") no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
@@ -322,7 +322,7 @@ h6 {
 }
 
 .project2 {
-      background: url("images/17.png") no-repeat 50% 50%;
+      background: url("../images/cpln675/overview.png") no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
@@ -342,7 +342,7 @@ h6 {
 }
 
 .project3 {
-      background: url("images/STX Book for portfolio.jpg") no-repeat 50% 50%;
+      background: url("../images/St.Croix Resilience Plan/overview.jpg") no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
@@ -362,7 +362,7 @@ h6 {
 }
 
 .project4 {
-      background: url("images/undergraduate.jpg") no-repeat 50% 50%;
+      background: url("../images/before2020/overview.jpg") no-repeat 50% 50%;
       background-size: cover;
       cursor: pointer;
 }
@@ -406,7 +406,7 @@ h6 {
 }
 
 .musa500 {
-      background: url("./images/F13.png") no-repeat 50% 50%;
+      background: url("../images/musa500/overview.png") no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -424,7 +424,7 @@ h6 {
 }
 
 .cpln675 {
-      background: url("./images/17.png") no-repeat 50% 50%;
+      background: url("../images/cpln675/overview.png") no-repeat 50% 50%;
       background-size: cover;
 }
 .cpln675::after {
@@ -441,7 +441,7 @@ h6 {
 }
 
 .Stcroix {
-      background: url("./images/STX Book for portfolio.jpg") no-repeat 50% 50%;
+      background: url("../images/St.Croix Resilience Plan/overview.jpg") no-repeat 50% 50%;
       background-size: cover;
 }
 .Stcroix::after {
@@ -619,7 +619,7 @@ h6 {
 }
 
 .image {
-      background: url("images/ChanghaoLi.png") no-repeat 50% 70%;
+      background: url("../images/ChanghaoLi.png") no-repeat 50% 70%;
 }
 
 /*--------------- contact form --------------- */

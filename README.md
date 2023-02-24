@@ -1,3 +1,3 @@
 # My Portfolio
 
-This repository publishes my portfolio. [Visit the portfolio](https://www.changhaoli.com/ "www.changhaoli.com").
+This repository publishes my portfolio. [Visit the portfolio](https://changhaoli.com/ "changhaoli.com").

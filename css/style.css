@@ -381,6 +381,26 @@ h6 {
       cursor: pointer;
 }
 
+.project5 {
+      background: url("../images/cpln600/overview.png") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.project5::after {
+      content: "East Parkside. Belmont. Haverford North Plan.";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color:black;
+      display: block;
+      top: 8%;
+      left: -105%;
+      right: 0;
+      bottom: 0;
+      cursor: pointer;
+}
+
 
 @media(max-width: 768px) {
       .project {
@@ -458,11 +478,11 @@ h6 {
 }
 
 .Neighborhood {
-      background: url("../images/St.Croix Resilience Plan/overview.jpg") no-repeat 50% 50%;
+      background: url("../images/cpln600/overview.png") no-repeat 50% 50%;
       background-size: cover;
 }
 .Neighborhood::after {
-      content: "East Parkside | Belmont | Haverford North.";
+      content: "East Parkside. Belmont. Haverford North Plan.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;

@@ -20,6 +20,31 @@
     object-fit: cover;
   }
   
+  #video-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 176, 6, 0.75);
+    width: 100%; /* 设置视频容器的固定宽度 */
+    height: fit-content;
+    /* height: 0;
+    padding-bottom: 56.25%;  */
+    /* 16:9 宽高比，可根据需要进行调整 */
+    margin: 0.5rem 0;
+  }
+  
+  video {
+    display: block;
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .video-container {
+      width: 100%;
+    }
+  }
 
   /* Position the previous and next buttons */
   #buttons, #buttons2 {
@@ -106,5 +131,6 @@
       /* padding-bottom: 56.25%; 4:3 aspect ratio for mobile screens */
     }
   }
+
 
   

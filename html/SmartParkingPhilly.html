@@ -24,7 +24,6 @@
       
       <link rel="stylesheet" href="../css/slider.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
 <body>
@@ -72,10 +71,11 @@
                         <div class="row">
                               <div class="col-lg-8">
 
-                                    <h3 class="wow fadeInUp"><span>.</span>East Parkside|Belmont|Haverford North</h3><br> 
-                                    <p class="wow fadeInUp">Collaborated with students from diverse academic backgrounds, conducted research, and developed a targeted plan for a specific community in the southern region of Fairmount Park. The plan was a revitalization-focused plan that paid attention to the African American community.</p>
-                                    <p class="wow fadeInUp">Individually designed a comprehensive corridor plan centered around pedestrian traffic systems, creating a safe and pedestrian-friendly community environment.</p>
-                                    </div>
+                                    <h3 class="wow fadeInUp"><span>.</span>Smart Parking Philadelphia</h3><br>
+                                    <p class="wow fadeInUp">Developing Philadelphia Smart Parking, a street parking visualization device developed based on Arduino. The project aims to enhance city traffic safety and efficiency while reducing pollution caused by vehicle cruising.</p>
+                                    <p class="wow fadeInUp">For more details, view <a class="slideshowlink" href="http://www.sensingthecity.com/smart-paking-philadelphia-a-product-that-detects-and-visualizes-the-availability-of-street-parking/" title="Smart Parking Philadelphia" style="text-decoration: none; color: inherit;">this blog post</a>.</p>
+
+                              </div>
 
                         </div>
                   </div>
@@ -86,69 +86,50 @@
             <!--------------- projects section starts here --------------->
             <div class="container">
                   <div class="whitespace"></div>
-            
-                  
-                  <div class="row">
-                        <div class="col-lg-6"></div>                        
-                        <div class="col-lg-4 work Neighborhood wow fadeInUp"></div>
-                        <div class="col-lg-2"></div>
-                  </div>
-
-                  <div class="whitespace"></div>
-                  
-                  <div class="about-content">
-                        <div class="col-lg-12 wow fadeInUp">
-                              <button class="button-link">
-                                    <a class="fa-solid fa-file-lines icon" style="text-decoration: none; color: inherit;" href="../pdf/HaverfordBelmontParkside_FinalBook_Print.pdf" target="_blank">
-                                          <i>Book</i>
-                                    </a>
-                              </button>
-                              <button class="button-link">
-                                    <a class="fa-solid fa-bookmark icon" style="text-decoration: none; color: inherit;" onclick="scrollToContent()">
-                                          <i>Slideshow</i>
-                                    </a>
-                              </button>
-                        </div>                        
-                  </div>
-
-                  <div class="row">
-                        <div class="col-lg-10 wow fadeInUp">
-                              <img src="../images/cpln600/LAYOUT.jpg" alt="LAYOUT">
-                        </div>
-                  </div>
-                  
-                  
-
-
                   <div class="hero-content">
-                        <br>
+                        <br><br>
+                        
+                        <!-- <div class="whitespace"></div> -->
 
                         <div class="row">
                               <div class="col-lg-10">
-                                    <div class="wow fadeInUp slidetitle">
+                                    <div class="wow fadeInUp slidetitle" id="slideshow-title">
+                                          <a>Prototyping with Arduino</a>
+                                    </div>
+                                    <br>
+                                    <div class="wow fadeInUp">
+                                          <div id="video-container">
+                                                <video src="../images/SPP/Video/Smart_Parking_PHL.mp4" controls poster="../images/SPP/overview2.jpg" >      
+                                                      Your browser does not support the video tag.
+                                                </video>
+                                          </div>
+                                    </div>
+                                    <br><br>
+                                    
+                              </div>
+
+                              <div class="col-lg-10">
+                                    <div class="wow fadeInUp slidetitle" id="slideshow-title">
                                           <a>Full final presentation slideshow</a>
                                     </div>
                                     <br>
                                     <div class="wow fadeInUp">
-                                          <div id="picture-frame">
+                                          <div id="picture-frame2">
                                           </div>
                                           <div id="buttons">
-                                                <div id="progress-bar">
-                                                      <div id="progress-bar-inner">
+                                                <div id="progress-bar2">
+                                                      <div id="progress-bar-inner2">
                                                       </div>
                                                 </div>
-                                                <button class="button" id="prev-button"><i class="fa-solid fa-chevron-left"></i></button>
-                                                <button class="button" id="next-button"><i class="fa-solid fa-chevron-right"></i></button>
+                                                <button class="button" id="prev-button2"><i class="fa-solid fa-chevron-left"></i></button>
+                                                <button class="button" id="next-button2"><i class="fa-solid fa-chevron-right"></i></button>
                                           </div>
                                     </div>
-                                    <br><br>
-                                    <a class="slideshowlink" href="https://www.design.upenn.edu/city-regional-planning/graduate/work" style="text-decoration: none; color: inherit;">View Project on Weitzman school of design Websit</a>
-                                    
-                              </div><br>
-                        </div>                                               
-                  </div> 
-                  <div class="whitespace"></div>
-                  <br><br> 
+                              </div>
+                        </div>
+
+                        <!-- <br><br> -->
+                  </div>  
             </div>
             
 
@@ -215,7 +196,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-      <script src="../js/nbh.js"></script>
+      <script src="../js/spp.js"></script>
       <script src="../js/scroll.js"></script>
 
       <script type="text/javascript">

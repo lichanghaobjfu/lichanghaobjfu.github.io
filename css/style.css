@@ -303,7 +303,7 @@ h6 {
 
 .project1 {
       background: url("../images/musa500/overview.png") no-repeat 50% 50%;
-      background-size: cover;
+      background-size: contain;
       cursor: pointer;
 }
 
@@ -323,7 +323,7 @@ h6 {
 
 .project2 {
       background: url("../images/cpln675/overview.png") no-repeat 50% 50%;
-      background-size: cover;
+      background-size: contain;
       cursor: pointer;
 }
 
@@ -343,7 +343,7 @@ h6 {
 
 .project3 {
       background: url("../images/St.Croix Resilience Plan/overview.jpg") no-repeat 50% 50%;
-      background-size: cover;
+      background-size: contain;
       cursor: pointer;
 }
 
@@ -363,7 +363,7 @@ h6 {
 
 .project4 {
       background: url("../images/before2020/overview.jpg") no-repeat 50% 50%;
-      background-size: cover;
+      background-size: contain;
       cursor: pointer;
 }
 
@@ -383,7 +383,7 @@ h6 {
 
 .project5 {
       background: url("../images/cpln600/overview.png") no-repeat 50% 50%;
-      background-size: cover;
+      background-size: contain;
       cursor: pointer;
 }
 
@@ -402,6 +402,26 @@ h6 {
 }
 
 
+.project6 {
+      background: url("../images/SPP/overview2.jpg") no-repeat 50% 50%;
+      background-size: contain;
+      cursor: pointer;
+}
+
+.project6::after {
+      content: "Smart Parking Phildadelphia";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color:black;
+      display: block;
+      top: 8%;
+      left: -105%;
+      right: 0;
+      bottom: 0;
+      cursor: pointer;
+}
+
 @media(max-width: 768px) {
       .project {
             width: 90% !important;
@@ -412,13 +432,18 @@ h6 {
             display: none;
       }
 
-      .project1::after, .project2::after, .project3::after .project4::after{
+      .project1::after, .project2::after, .project3::after .project4::after .project5::after .project6::after{
             display: none;
       }
 
       #myframe {
             display: none;
       }
+
+      .project1,.project2,.project3,.project4,.project5,.project6 {
+            background-position: center center;
+            background-size: contain;
+          }
 }
 
 .work {
@@ -535,6 +560,7 @@ h6 {
             display: none;
       }
 }
+
 
 /*--------------- footer section --------------- */
 .collab {

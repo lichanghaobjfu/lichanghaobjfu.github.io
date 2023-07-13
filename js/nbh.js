@@ -6,7 +6,7 @@ const pictures = []
 for (let i = 0; i < 105; i++) {
   const img = document.createElement("img");
   img.src = "../images/cpln600/slideshow/Slide" + (i + 1).toString() + ".jpg";
-  var src = document.getElementById("picture-frame");
+  var src = document.getElementById("picture-frame-nbh");
   src.appendChild(img);
   pictures.push(img)
 }

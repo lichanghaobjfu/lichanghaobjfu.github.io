@@ -6,7 +6,7 @@ const pictures2 = []
 for (let i = 0; i < 50; i++) {
   const img = document.createElement("img");
   img.src = "../images/SPP/slideshow/Slide" + (i + 1).toString() + ".jpg";
-  var src = document.getElementById("picture-frame2");
+  var src = document.getElementById("picture-frame-spp");
   src.appendChild(img);
   pictures2.push(img)
 }
